@@ -1,0 +1,141 @@
+/* General Styles */
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #f9f9f9;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Header Section */
+.contact-header {
+    background-image: url('https://via.placeholder.com/1920x600');
+    background-size: cover;
+    background-position: center;
+    padding: 100px 20px;
+    text-align: center;
+    color: white;
+}
+
+.contact-header h1 {
+    font-family: 'Big Noodle Titling', sans-serif;
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+.contact-header p {
+    font-size: 1.5em;
+}
+
+/* Contact Information Section */
+.contact-info {
+    display: flex;
+    justify-content: space-around;
+    margin: 60px 0;
+    background-color: #007BFF;
+    color: white;
+    padding: 40px 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.info-item {
+    text-align: center;
+    flex: 1;
+    padding: 20px;
+}
+
+.info-item i {
+    font-size: 2.5em;
+    margin-bottom: 15px;
+}
+
+.info-item h3 {
+    font-family: 'Chosence', sans-serif;
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+.info-item p {
+    font-size: 1.2em;
+    margin: 0;
+}
+
+/* Contact Form Section */
+.contact-form {
+    background-color: white;
+    padding: 60px 20px;
+    margin-bottom: 60px;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form h2 {
+    font-family: 'Chosence', sans-serif;
+    font-size: 2.5em;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.contact-form p {
+    text-align: center;
+    font-size: 1.2em;
+    margin-bottom: 40px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group input, 
+.form-group textarea {
+    width: 100%;
+    padding: 15px;
+    font-size: 1.1em;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease-in-out;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+    border-color: #007BFF;
+}
+
+.submit-button {
+    background-color: #007BFF;
+    color: white;
+    padding: 15px 30px;
+    font-size: 1.2em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block;
+    width: 100%;
+    margin-top: 20px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.submit-button:hover {
+    background-color: #0056b3;
+}
+
+/* Footer */
+.footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer p {
+    margin: 0;
+    font-size: 0.9em;
+}
